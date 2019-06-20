@@ -1,0 +1,21 @@
+
+.filter-scroll{
+    overflow-y: auto;
+    height: 80px;
+    background-color: #EEF7F9;
+    width: content-box;
+}
+
+.panel-background{
+    background-color: #EEF7F9;
+}
+
+.top-margin{
+    margin-top: 10px;
+}
+
+.header-background{
+    background-color: #EEF7F9;
+}
+
+
