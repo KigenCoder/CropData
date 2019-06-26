@@ -8,7 +8,7 @@
     <th scope="col">Crop</th>
     <th scope="col">Livelihood System</th>
     <th scope="col">Season</th>
-    <th scope="col">Production (Metric tones)</th>
+    <th scope="col">Production (Metric tonnes)</th>
     </thead>
     <tbody>
 
@@ -49,7 +49,7 @@
     },
 
     methods: {
-      production(season, off_season) {
+      production: function(season, off_season) {
 
         season = +season
         off_season = +off_season
