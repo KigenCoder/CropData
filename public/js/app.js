@@ -53140,7 +53140,8 @@ var render = function() {
   return _c(
     "table",
     {
-      staticClass: "table is-bordered is-striped is-narrow small-font is-size-7"
+      staticClass: "table is-bordered is-striped is-full-width",
+      staticStyle: { "font-family": "roboto-condensed" }
     },
     [
       _vm._m(0),
@@ -53202,9 +53203,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("th", { attrs: { scope: "col" } }, [_vm._v("Season")]),
       _vm._v(" "),
-      _c("th", { attrs: { scope: "col" } }, [
-        _vm._v("Production (Metric tones)")
-      ])
+      _c("th", { attrs: { scope: "col" } }, [_vm._v("Production")])
     ])
   }
 ]

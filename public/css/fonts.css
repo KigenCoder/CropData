@@ -1,0 +1,284 @@
+/* OPEN SANS */
+/*
+@font-face {
+    font-family: "open-sans";
+  font-style: normal;
+  font-weight: normal;
+    src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "open-sans";
+  font-style: italic;
+  font-weight: normal;
+    src: url(../fonts/open-sans/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: "open-sans";
+  font-style: normal;
+  font-weight: bold;
+    src: url(../fonts/open-sans/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: "open-sans";
+  font-style: normal;
+  font-weight: 300;
+    src: url(../fonts/open-sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "open-sans";
+  font-style: normal;
+  font-weight: 900;
+    src: url(../fonts/open-sans/OpenSans-ExtraBold.ttf);
+}
+
+ */
+
+/* ROBOTO */
+@font-face {
+    font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;    
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto";
+  font-style: italic;
+  font-weight: normal;    
+    src: url(../fonts/roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: "roboto";
+  font-style: normal;
+  font-weight: bold;    
+    src: url(../fonts/roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "roboto";
+  font-style: normal;
+  font-weight: 700;    
+    src: url(../fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "roboto";
+  font-style: normal;
+  font-weight: 300;    
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "roboto";
+  font-style: normal;
+  font-weight: 900;    
+    src: url(../fonts/roboto/Roboto-Black.ttf);
+}
+
+/* ROBOTO CONDENSED */
+@font-face {
+    font-family: "roboto-condensed";
+  font-style: normal;
+  font-weight: normal;    
+    src: url(../fonts/roboto/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto-condensed";
+  font-style: italic;
+  font-weight: normal;    
+    src: url(../fonts/roboto/RobotoCondensed-Italic.ttf);
+}
+
+@font-face {
+    font-family: "roboto-condensed";
+  font-style: normal;
+  font-weight: 700;    
+    src: url(../fonts/roboto/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: "roboto-condensed";
+  font-style: normal;
+  font-weight: 300;    
+    src: url(../fonts/roboto/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: "roboto-condensed";
+  font-style: normal;
+  font-weight: 900;    
+    src: url(../fonts/roboto/RobotoCondensed-Bold.ttf);
+}
+
+.serif {
+  font-family:georgia, garamond, sans-serif;
+}
+
+/*
+@font-face {
+    font-family: "open-sans-condensed";
+    font-style: normal;
+    font-weight: 300;    
+    src: url(../fonts/open-sans-condensed/OpenSans-CondBold.ttf);
+}
+
+ */
+
+/* END : FONTS*/
+
+html {
+
+}
+
+p{
+  font-size:1.2em;
+}
+
+.no-padding{
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+.no-padding{
+    padding-left:5px !important;
+    padding-right:5px !important;    
+}
+
+.pad-left {
+    padding-left:5px !important;
+}
+.pad-right {
+    padding-right:5px !important;
+}
+
+.superbold{
+  font-weight: 900;    
+}
+
+.bold, b, strong, h1, h2, h3, h4{
+    font-weight:700 !important;
+}
+.light{
+    font-weight:300 !important;   
+}
+
+
+.smaller{
+  font-size:0.9em;
+}
+.desc{
+    font-size:0.8em;
+}
+
+blockquote{
+  font-size:1em;
+}
+h1,.h1 {
+    font-size:2.1em !important;
+}
+
+h2, .h2 {
+    font-size:1.7em !important;
+}
+
+h3, .h3 {
+    font-size:1.3em !important;
+}
+
+h4, .h4 {
+    font-size:1.13em !important;
+}
+
+h5, .h5 {
+    font-size:1.06em !important;
+}
+
+h6, .h6 {
+    font-size:1.02em !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight:900 !important;
+    margin-top:1em !important;
+    margin-bottom:1em !important;
+}
+
+.normal{
+  font-weight:300 !important;
+}
+.faint {
+  color:#aaa;
+}
+
+.fa-trash,.mdi-close,.mdi-eraser, .delete{
+  /*color:#eaa;*/
+  cursor: pointer;
+}
+.fa-trash:hover,.mdi-close:hover, .delete:hover,.mdi-eraser:hover{
+  color:#f00;
+}
+
+
+
+/* MDI FIXES FOR BOOTSTRAP */
+
+.mdi {
+  font-size:1.4em;
+  vertical-align: middle;
+  line-height:1em;  
+}
+.btn{
+  line-height:1em;  
+  font-size:14px;
+  font-weight:900;
+}
+
+/* MDI FIXES */
+
+.btn .mdi {
+  vertical-align: middle;
+}
+.mdi.mdi-delete {
+  /*color:#888;*/
+}
+
+a .mdi {
+  color:#ddd;
+}
+
+a:hover .mdi, a.active .mdi, .mdi.active {
+  color:#2980b9;
+}
+
+.font-large{
+  font-size:3em;
+}
+.font-larger{
+  font-size:1.4em;
+}
+
+.table, body {
+    font-size:13px;
+    font-family:roboto-condensed;
+    color:#222;    
+}
+
+.mdi label {
+  position:relative;
+  left:-10px;
+  color:#fff;
+  background:#e02;
+  border-radius:50%;
+  font-size:10px;
+  padding:2px 5px 2px 5px ;
+  font-family:roboto;
+  letter-spacing:-3px;
+  display:inline;
+}
+
+.mdi.mdi-delete:hover {
+  color:#e02
+}

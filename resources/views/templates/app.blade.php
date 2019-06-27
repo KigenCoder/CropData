@@ -9,32 +9,32 @@
     <script>window.Laravel = {csrfToken: '{{ csrf_token() }}'} </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css" type="text/css">
     <link href="{{asset('css/styles.css') }}" rel="stylesheet">
+    <link href="{{asset('css/fonts.css') }}" rel="stylesheet">
 </head>
 
 <body>
-<div class="container top-margin" >
-    <div class="section box panel-background">
-        <nav class="navbar panel-background" role="navigation">
-            <!-- FSNAU LOGO -->
-            <div class="navbar-brand navbar-start">
+
+<div class="container top-margin">
+    <!-- Main container -->
+    <nav class="level box">
+        <!-- Left side -->
+        <div class="level-left">
+            <div class="level-item">
                 <img src="../../images/fsnau_logo.png" alt="FSNAU">
             </div>
+        </div>
 
-            <!-- Title -->
-            <div class="navbar-brand">
-                    <p class="title is-2 is-primary">Crop Production Data</p>
-            </div>
-
-            <!-- FAO LOGO -->
-            <div class="navbar-brand navbar-end">
-                <img src="../../images/fao_logo.png" alt="FAO">
-            </div>
-        </nav>
-    </div>
+        <div class="level-item">
+            <p class="title is-6">CROP PRODUCTION (METRIC TONNES)</p>
+        </div>
+        <!-- Right side -->
+        <div class="level-right">
+            <img src="../../images/fao_logo.png" alt="FAO">
+        </div>
+    </nav>
 
 
-
-    <div class="tile is-parent" >
+    <div class="tile is-parent">
         @yield('content')
     </div>
 </div>

@@ -1,5 +1,5 @@
 <template>
-  <table class="table is-bordered is-striped is-narrow small-font is-size-7">
+  <table class="table is-bordered is-striped is-full-width" style="font-family: roboto-condensed">
     <thead>
     <th scope="col">Zone</th>
     <th scope="col">Region</th>
@@ -8,7 +8,7 @@
     <th scope="col">Crop</th>
     <th scope="col">Livelihood System</th>
     <th scope="col">Season</th>
-    <th scope="col">Production (Metric tonnes)</th>
+    <th scope="col">Production</th>
     </thead>
     <tbody>
 
